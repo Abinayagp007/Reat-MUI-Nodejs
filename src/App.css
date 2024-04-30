@@ -1,0 +1,146 @@
+.banner_platforms_pages {
+  background-image: url(https://i.pinimg.com/originals/63/d0/6f/63d06f07ae997e1cfe777b77fa95af1f.jpg); /* Base64-encoded image */
+}
+.banner_platforms_pages {
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+}
+
+.banner_platforms_pages a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.domain_wrapper_platforms_pages {
+  /* background-color: rgba(255, 255, 255, 0.8);  */
+  /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.heading_domain_banner-services_page {
+  margin-top: "0px";
+  
+}
+
+.bluish_text_block_platforms_pages {
+  background-color: #ffc107; 
+  /* Adjust the color as needed */
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10vh;
+}
+
+.secondary_heading_platform_pages {
+  font-size: 18px;
+}
+
+.secondary_heading_services_page-copy {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+
+
+
+.additional-services-container {
+  width: 200px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the container */
+}
+
+.scrollin-list {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.visible {
+  display: inline-block;
+  margin-right: 10px; /* Adjust the margin between items as needed */
+}
+
+.hidden {
+  display: none;
+}
+
+
+/* @keyframes openTooltip {
+  from {
+    transform: translateX(-80%); 
+  }
+  to {
+    transform: translateX(0%); 
+  }
+} */
+@keyframes openTooltip {
+  from {
+    transform: translateX(+40%); 
+  }
+  to {
+    transform: translateX(0%); 
+  }
+}
+
+/* VideoPlayer.css */
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+video {
+  width: 90%; /* Adjust the width as needed */
+  height: auto; /* This will maintain the correct aspect ratio */
+  max-width: 100%;
+}
+.box-image{
+  
+  height:"20px";
+  width:"10px";
+}
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
